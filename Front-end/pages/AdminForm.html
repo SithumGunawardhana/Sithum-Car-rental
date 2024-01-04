@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="icon" href="../assests/img/carProfile.png">
+    <title>Admin Form</title>
+    <link rel="stylesheet" href="../assests/css/bootstrap.css">
+
+</head>
+<body id="adminForm">
+
+<header id="Header">
+    <nav class="navbar navbar-expand-lg bg-body-white">
+        <div class="container-fluid">
+            <img   src="../assests/img/carProfile.png" alt="" width="50">
+            <a class="navbar-brand p-2" href="#">Admin Form</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Admin">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Drivers">Drivers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Users">Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Cars">Cars</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex " role="click">
+
+
+
+                    <button class="btn btn-dark m-2" type="submit"><a class="text-light" href="../index.html">Log out</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<section id="Admin">
+
+
+
+    <div class="container  ">
+
+
+        <div class="row shadow-lg p-3 m-5 bg-body-secondary rounded">
+
+            <div >
+
+
+
+                <form class="row g-3  mb-5 pb-5">
+                    <h1 class="text-center text-primary" style="font-family: cursive;">Admin Details</h1>
+
+
+                    <div class="col-md-6">
+                        <label for="AdminfirstName" class="form-label">My First Name</label>
+                        <input type="text" class="form-control" id="AdminfirstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="AdminlastName" class="form-label"> My Last Name</label>
+                        <input type="text" class="form-control" id="AdminlastName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="AdminCN" class="form-label">Contact Number</label>
+                        <input type="number" class="form-control" id="AdminCN">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="AdminAddress" class="form-label">My Address</label>
+                        <input type="text" class="form-control" id="AdminAddress" placeholder="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="adminEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="adminEmail">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="ANN" class="form-label">Nic Number</label>
+                        <input type="text" class="form-control" id="ANN">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="AformFile" class="form-label">Upload Nic Photo</label>
+                        <input class="form-control" type="file" id="AformFile">
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                        <label for="AUserName" class="form-label">My User Name</label>
+                        <input type="text" class="form-control" id="AUserName">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="Apw" class="form-label">Admin Password</label>
+                        <input type="password" class="form-control" id="Apw">
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary w-100 p-2 mt-2">Change </button>
+                    </div>
+
+                </form>
+
+
+
+
+            </div>
+        </div></div>
+
+</section>
+
+<section id="Drivers">
+
+
+
+    <div class="container  ">
+
+
+        <div class="row shadow-lg p-3 m-5 bg-body-secondary rounded">
+
+            <div >
+
+
+
+                <form class="row g-3  mb-5 pb-5">
+                    <h1 class="text-center text-primary" style="font-family: cursive;">Driver Details</h1>
+
+                    <div class="col-md-6">
+                        <label for="DUserId" class="form-label">Driver Id</label>
+                        <input type="text" class="form-control" id="DUserId">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DfirstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="DfirstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DlastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="DlastName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DCN" class="form-label">Contact Number</label>
+                        <input type="number" class="form-control" id="DCN">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="DAddress" placeholder="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="DEmail">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DNN" class="form-label">Nic Number</label>
+                        <input type="text" class="form-control" id="DNN">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="DformFile" class="form-label">Upload Nic Photo</label>
+                        <input class="form-control" type="file" id="DformFile">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="DDLI" class="form-label">Driving Licence Id</label>
+                        <input type="text" class="form-control" id="DDLI">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DformFile1" class="form-label">Driving Licence Photo</label>
+                        <input class="form-control" type="file" id="DformFile1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DUserName" class="form-label">User Name</label>
+                        <input class="form-control" type="file" id="DUserName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="DPassword">
+                    </div>
+
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary w-100 p-2 mt-2">Change details</button>
+                    </div>
+
+                </form>
+
+
+
+
+            </div>
+        </div></div>
+
+</section>
+
+
+<section id="Users">
+
+
+
+    <div class="container  ">
+
+
+        <div class="row shadow-lg p-3 m-5 bg-body-secondary rounded">
+
+            <div >
+
+
+
+                <form class="row g-3  mb-5 pb-5">
+                    <h1 class="text-center text-primary" style="font-family: cursive;">User Details</h1>
+
+                    <div class="col-md-6">
+                        <label for="UserId" class="form-label">User Id</label>
+                        <input type="text" class="form-control" id="UserId">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UfirstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="UfirstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UlastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="UlastName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UCN" class="form-label">Contact Number</label>
+                        <input type="number" class="form-control" id="UCN">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="UAddress" placeholder="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="UEmail">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UNN" class="form-label">Nic Number</label>
+                        <input type="text" class="form-control" id="UNN">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="UformFile" class="form-label">Upload Nic Photo</label>
+                        <input class="form-control" type="file" id="UformFile">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="UDLI" class="form-label">Driving Licence Id</label>
+                        <input type="text" class="form-control" id="UDLI">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UformFile1" class="form-label">Driving Licence Photo</label>
+                        <input class="form-control" type="file" id="UformFile1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="UPassword" class="form-label">Admin Password</label>
+                        <input type="password" class="form-control" id="UPassword">
+                    </div>
+
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary w-100 p-2 mt-2">Change details</button>
+                    </div>
+
+                </form>
+
+
+
+
+            </div>
+        </div></div>
+
+</section>
+
+
+<section id="Cars">
+
+
+
+    <div class="container  ">
+
+
+        <div class="row shadow-lg p-3 m-5 bg-body-secondary rounded">
+
+            <div >
+
+
+
+                <form class="row g-3  mb-5 pb-5">
+                    <h1 class="text-center text-primary" style="font-family: cursive;">Car Details</h1>
+
+                    <div class="col-md-6">
+                        <label for="RN" class="form-label">Registration Number</label>
+                        <input type="text" class="form-control" id="RN">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="BN" class="form-label">Brand Name</label>
+                        <input type="text" class="form-control" id="BN">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Type" class="form-label">Type</label>
+                        <input type="text" class="form-control" id="Type">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="NOP" class="form-label">No. Of Passengers</label>
+                        <input type="number" class="form-control" id="NOP">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Colour" class="form-label">Color</label>
+                        <input type="text" class="form-control" id="Colour" placeholder="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DR" class="form-label">Daily Rate</label>
+                        <input type="number" class="form-control" id="DR">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="MR" class="form-label">Monthly Rate</label>
+                        <input type="number" class="form-control" id="MR">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="FM" class="form-label">Free Mileage</label>
+                        <input type="number" class="form-control" id="FM">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="PEK" class="form-label">Price Extra KM</label>
+                        <input type="number" class="form-control" id="PEK">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="CI" class="form-label">Upload Car Image</label>
+                        <input class="form-control" type="file" id="CI">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Admin Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary w-100 p-2 mt-2">Change </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+    <section id="Rent">
+
+        <div class="container  ">
+
+
+            <div class="row shadow-lg p-3 m-5 bg-body-secondary rounded">
+                <div>
+
+                    <form class="row g-3  mb-5 pb-5">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Rent Id</th>
+                                <th scope="col">PickUp Date</th>
+                                <th scope="col">Return Date</th>
+                                <th scope="col">Registration No:</th>
+                                <th scope="col">Customer Id</th>
+                                <th scope="col">Licence No:</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr></tr>
+
+                            </tbody>
+                        </table>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Report">
+        <div class="container  ">
+
+
+            <div class="row shadow-lg p-3 m-5 bg-body-secondary rounded">
+                <div>
+
+                    <form class="row g-3  mb-5 pb-5">
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-center text-light">
+        <div>
+            <h1 class="text-light">Thank you!</h1>
+            <div>
+                <ul class="nav justify-content-center ">
+                    <li> <a class="nav-link text-light " href="#">Home</a></li>
+                    <li> <a class="nav-link text-light" href="#Admin">Admins</a></li>
+                    <li> <a class="nav-link text-light" href="#Drivers">Drivers</a></li>
+                    <li> <a class="nav-link text-light" href="#Users">Users</a></li>
+                    <li> <a class="nav-link text-light" href="#Cars">Cars</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <hr>
+            <div class="copyright">Copyright <strong><span>Sithum car Rental pvt Ltd.</span></strong></div>
+        </div>
+        <div>
+            DESIGN BY SITHUM THILANKA
+        </div>
+
+
+
+
+
+    </footer>
+
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="assests/js/bootstrap.js"></script>
+</body>
+</html>

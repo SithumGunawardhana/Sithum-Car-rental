@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="027ac578-d55b-4771-93bc-c9671676cb9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/config/JPAConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/entity/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/entity/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/spring/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/assests/controller/AdminController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/assests/controller/LoginController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/assests/js/jquery-3.7.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/assests/js/jquery-3.7.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/pages/AdminForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front-end/pages/CarForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Sithum-Car-rental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Sithum-Car-rental.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front-end/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front-end/pages/DriverForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front-end/pages/DriverForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front-end/pages/LogIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front-end/pages/LogIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front-end/pages/RegisterForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front-end/pages/RegisterForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front-end/pages/UserForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front-end/pages/UserForm.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2aRSCUljROhyipM8WQJV7VbLwV4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Volumes/Software Engineering/New Working zon/Sithum-Car-rental/Back-end"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="027ac578-d55b-4771-93bc-c9671676cb9e" name="Changes" comment="" />
+      <created>1704279772769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704279772769</updated>
+      <workItem from="1704279774355" duration="77000" />
+      <workItem from="1704279903078" duration="7313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
