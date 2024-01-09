@@ -7,6 +7,7 @@ import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -15,14 +16,16 @@ import javax.persistence.Id;
 @ToString
 public class Admin {
     @Id
-    private String nicNo;
+    private String user_Id;
     private String firstName;
     private String lastName;
-    private int contactNo;
+    private String contact_No;
+    private String address;
     private String email;
-    private String userName;
-    private String password;
+    private String nic;
 
 
+    @OneToOne
+    private User user;
 
 }

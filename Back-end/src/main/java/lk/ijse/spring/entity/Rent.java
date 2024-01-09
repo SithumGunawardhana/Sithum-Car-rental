@@ -9,6 +9,8 @@ import javax.persistence.*;
 import java.rmi.registry.LocateRegistry;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -16,15 +18,20 @@ import java.time.LocalTime;
 @Entity
 public class Rent {
     @Id
-    private String rentId;
+    private String rent_Id;
     private LocalDate pickUpDate;
     private LocalTime pickUpTime;
     private LocalDate returnDate;
     private LocalTime returnTime;
+    private String requestType;
+    private String location;
+    private String rentStatus;
 
+    @ManyToOne(cascade = {CascadeType.REFRESH, CascadeType.DETACH})
+    @JoinColumn(name = "user_Id", referencedColumnName = "user_Id", nullable = false)
+    private RegisterUser user_Id;
 
-    @ManyToOne(cascade = {CascadeType.REFRESH,CascadeType.DETACH})
-    @JoinColumn(name = "userId",referencedColumnName = "userId",nullable = false)
-    private User userId;
+    @OneToMany(mappedBy = "rent", cascade = CascadeType.ALL)
+    private List<RentDetails> rentDetails;
 
 }

@@ -1,14 +1,12 @@
 package lk.ijse.spring.entity;
 
+import lk.ijse.spring.embeded.Image;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,17 +16,23 @@ import javax.persistence.ManyToOne;
 public class Car {
     @Id
 
-    private String regNo;
-    private String brandName;
-    private String modelName;
-    private int noIOfPase;
-    private String colour;
-    private double dilyRate;
-    private double monthlyRate;
-    private double freeMi;
-    private double extraKM;
-    private String car_img;
-    private String password;
+    private String regNumber;
+    private String brand;
+    private String model;
+    private String type;
+    private String transmission_type;
+    private String fuel_type;
+
+
+    @Embedded
+    private Image image;
+    private int noOfPassengers;
+    private String color;
+    private double daily_Rate;
+    private double monthly_Rate;
+    private double priceExtraKM;
+    private double freeMileage;
+    private String vehicleAvailabilityType;
 
 //    @ManyToOne
 //    @JoinColumn
